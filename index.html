@@ -18,23 +18,26 @@
 
     <!--Estilos-->
     <link rel="stylesheet" href="styles/settings.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="styles/all.css" media="all">
+    <link rel="stylesheet" href="styles/navbar.css">
 
     <title>Portfólio | Mika Marques - Web Developer</title>
 </head>
-<body>
-    <nav>
-        <h2>Akimkj</h2>
-        <!--iconmenu aqui-->
+<body onresize="mudarTamanho()">
+    <nav id="navbar">
+        <h2 id="username">Akimkj</h2>
+        <span class="material-symbols-outlined" id="iconmenu" onclick="clickmenu()">menu</span>
         <menu id="areamenu">
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#skills">Skills</a></li>
+            <ul id="itensmenu">
+                <li><a href="#sobre" onclick="clickmenu()">Sobre</a></li>
+                <li><a href="#projetos" onclick="clickmenu()">Projetos</a></li>
+                <li><a href="#skills" onclick="clickmenu()">Skills</a></li>
             </ul>
         </menu>
     </nav>
     <header id="inicio">
-        <div id="">
+        <div id="mainapresentation">
             <h1>Mika Marques</h1>
             <p>Web Developer</p>
         </div>
@@ -74,5 +77,7 @@
     <footer>
         ...
     </footer>
+
+    <script src="js/components/mobilemenu.js"></script>
 </body>
 </html>

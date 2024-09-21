@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fontgeral);
+}
+
+body, html {
+    height: 100dvh;
+    width: 100dvw;
+    background-color: var(--colorgray-three);
+    position: relative;
+}

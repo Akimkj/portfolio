@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+#sobre {
+    color: var(--colorwhite);
+    padding: 1.5em;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    border-bottom: 4px solid black;
+}
+
+#flexcontent {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#sobre h2 {
+    font: normal 600 1.4em var(--fontpixel-art);
+    letter-spacing: 1px;
+    margin-bottom: 1.5em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.548);
+    transition:  0.4s ease-in-out;
+}
+
+#sobre h2:hover {
+    animation: float 1.1s ease-in-out infinite alternate;
+    font-size: 1.6em;
+}
+
+#photomika {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    border-radius: 70%;
+    overflow: hidden;
+    animation: float 1.1s ease-in-out infinite alternate;
+    margin-bottom: 2em;
+}
+
+#autodescricao {
+    align-self: flex-start;
+    padding: 1em;
+}
+
+#autodescricao h3 {
+    font: normal bold 1.3em var(--fonthover);
+    margin-bottom: 0.5em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.548);
+}
+
+#autodescricao p {
+    text-align: justify;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    hyphens: auto;
+}
+
+#autodescricao ul {
+    list-style-position: inside;
+}
+
+@media screen and (min-width: 768px) {
+    #sobre h2 {
+        animation: float 1.1s ease-in-out infinite alternate;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    #flexcontent {
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+
+    #photomika {
+        flex: 1.2 0 300px;
+        margin-right: 1.4em;
+    }
+
+    #autodcesricao {
+        flex: 1 1 500px;
+    }
+}
+

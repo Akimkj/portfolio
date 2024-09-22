@@ -48,6 +48,7 @@ header#inicio {
 }
 #areabuttons a {
     background-color: var(--colorgray-three);
+    color: var(--colorviolet-two);
     font-size: 1em;
     padding: 0.6em;
     border: 0;

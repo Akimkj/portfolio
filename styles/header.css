@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+header#inicio {
+    background-color: var(--colorviolet-two);
+    padding: 1em;
+    height: 60%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid var(colorblack);
+}
+
+#mainapresentation {
+    background-color:var(--colorgray-three);
+    text-align: center;
+    padding: 1em;
+    width: 80%;
+    margin-top: 1em;
+    margin: 0 auto 2.5em auto;
+    box-shadow: 6px 6px 2px rgba(0, 0, 0, 0.603);
+}
+
+#mainapresentation h1, #mainapresentation p {
+    font-family: var(--fontpixel-art);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.247);
+}
+
+#mainapresentation h1 {
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+#mainapresentation p {
+    font-size: 1.1em;
+}
+
+#areabuttons {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 100%;
+}
+button {
+    padding: 0.6em;
+    
+}

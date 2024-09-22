@@ -12,7 +12,7 @@
     --colorviolet-two: #6A287E;
     --colorviolet-three: #9370DB;
     
-    --colorgray-one: #696969;
+    --colorgray-one: #4e4e4e;
     --colorgray-two: #D3D3D3;
     --colorgray-three: #F2F2F2;
 
@@ -24,12 +24,23 @@
 
     --fontpixel-art: "Press Start 2P", system-ui;
     --fonthover: "Montserrat", "Merriweather", sans-serif;
-    --fontgeral: "Roboto", "Open Sans", sans-serif;
+    --fontgeral: "Poppins", "Roboto", "Open Sans", sans-serif;
+}
+
+.backgray, .backpurple {
+    border-bottom: 4px solid black;
+}
+
+.backpurple {
+    background-color: var(--colorviolet-two);
+}
+.backgray {
+    background-color: #4e4e4e;
 }
 
 @keyframes float {
     0% {
-        transform: translateY(-3px);
+        transform: translateY(-4px);
     }
     100% {
         transform: translateY(4px);

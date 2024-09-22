@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 header#inicio {
-    background-color: var(--colorviolet-two);
     padding: 1em;
     height: 80%;
     display: flex;
@@ -9,7 +8,6 @@ header#inicio {
     justify-content: center;
     align-content: space-around;
     align-items: center;
-    border-bottom: 4px solid black;
 }
 
 #mainapresentation {
@@ -59,6 +57,11 @@ header#inicio {
     text-decoration: none;
 }
 
+#areabuttons a:active {
+    background-color: var(--colorviolet-three);
+    color: var(--colorwhite);
+}
+
 #areabuttons p { 
     font-family: var(--fonthover);
     font-weight: 600;
@@ -69,7 +72,8 @@ header#inicio {
 }
 
 #cvbutton, #inbutton {
-    transition: padding 0.4s ease-in-out;
+    transition: padding 0.4s ease-in-out, color 0.4s ease-in-out;
+    
 }
 
 #cvbutton:hover, #inbutton:hover {

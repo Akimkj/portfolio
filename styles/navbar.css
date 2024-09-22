@@ -124,12 +124,14 @@
         margin-bottom: 0;
         font: normal 500 1.4em var(--fonthover);
         margin-left: 3em;
+        display: flex;
+        align-items: center;
     }
 
     #areamenu a::before {
         content: "🟪";
         margin-right: 5px;
-        font-size: 0.6em; 
+        font-size: 0.5em;
     }
 }
 

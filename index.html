@@ -21,7 +21,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="styles/all.css" media="all">
     <link rel="stylesheet" href="styles/navbar.css">
-
+    <link rel="stylesheet" href="styles/header.css">
     <title>Portfólio | Mika Marques - Web Developer</title>
 </head>
 <body onresize="mudarTamanho()">
@@ -41,12 +41,14 @@
             <h1>Mika Marques</h1>
             <p>Web Developer</p>
         </div>
-        <button>
-            <p>Meu currículo <!--icon aqui--></p>
-        </button>
-        <button>
+        <div id="areabuttons">
+            <button>
+                <p>Meu currículo <span class="material-symbols-outlined">logout</span></p>
+            </button>
+            <button>
             <p>Linkedin</p>
-        </button>
+            </button>
+        </div>
     </header>
     <main>
         <section id="sobre" name="sobre">

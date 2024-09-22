@@ -25,15 +25,6 @@
     top: 5px;
 }
 
-@keyframes float {
-    0% {
-        transform: translateY(-1px);
-    }
-    100% {
-        transform: translateY(3px);
-    }
-}
-
 #username::before {
     content: "</";
     color: black;

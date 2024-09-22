@@ -22,9 +22,11 @@
     <link rel="stylesheet" href="styles/all.css" media="all">
     <link rel="stylesheet" href="styles/navbar.css">
     <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sobre.css">
     <title>Portfólio | Mika Marques - Web Developer</title>
 </head>
 <body onresize="mudarTamanho()">
+    <!--Navbar para mobile-->
     <nav id="navbar">
         <h2 id="username">Akimkj</h2>
         <span class="material-symbols-outlined" id="iconmenu" onclick="clickmenu()">menu</span>
@@ -36,7 +38,18 @@
             </ul>
         </menu>
     </nav>
-    <header id="inicio">
+    <!--Navbar para tablets e desktops-->
+   <nav id="navbartwo">
+        <h2 id="username">Akimkj</h2>
+        <menu id="areamenutwo">
+            <ul id="itensmenu">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </menu>
+    </nav>
+    <header id="inicio" class="backpurple">
         <div id="mainapresentation">
             <h1>Mika Marques</h1>
             <p>Web Developer</p>
@@ -51,28 +64,29 @@
         </div>
     </header>
     <main>
-        <section id="sobre" name="sobre">
+        <section id="sobre" name="sobre" class="backgray">
             <h2>Sobre</h2>
-            <div class="blob">
-                <img src="" alt="foto de mika">
-            </div>
-            <div id="autodescricao">
-                <h3>Quem sou eu?</h3>
-                <p>Gamer e encantado por códigos e tecnologias. Sou iniciante no mundo da programação e desenvolvimento, mas a cada dia vou trilhando meu caminho a procura de coisas novas.</p>
-                <ul>
-                    <li>São Luís, Maranhão</li>
-                    <li>Aluno de Ciência da Computação na UFMA</li>
-                    <li>Free-Lancer</li>
-                    <li>kakamarques.0202@gmail.com</li>
-                </ul>
+            <div id="flexcontent">
+                <div id="photomika">
+                </div>
+                <div id="autodescricao">
+                    <h3>Quem sou eu?</h3>
+                    <p>Gamer e encantado por códigos e tecnologias. Sou iniciante no mundo da programação e do desenvolvimento, mas a cada dia vou trilhando meu caminho a procura de coisas novas.</p>
+                    <ul>
+                        <li>&#x1F4CD; São Luís, Maranhão</li>
+                        <li>&#x1F393; Aluno de Ciência da Computação na UFMA</li>
+                        <li>👩‍💻 Free-Lancer</li>
+                        <li>📧 kakamarques.0202@gmail.com</li>
+                    </ul>
+                </div>
             </div>
         </section>
-        <section id="projetos" name="projetos">
+        <section id="projetos" name="projetos" class="backpurple">
             <h2>Projetos</h2>
             <!--Será desenvolvido-->
             <p id="githubRecomendation">Mais projetos no Github <!--icone aqui--></p>
         </section>
-        <section id="skills" name="skills">
+        <section id="skills" name="skills" class="backgray">
             <h2>Skills</h2>
         </section>
     </main>

@@ -3,13 +3,13 @@
 header#inicio {
     background-color: var(--colorviolet-two);
     padding: 1em;
-    height: 60%;
+    height: 80%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-content: space-around;
     align-items: center;
-    border-bottom: 2px solid var(colorblack);
+    border-bottom: 4px solid black;
 }
 
 #mainapresentation {
@@ -20,6 +20,12 @@ header#inicio {
     margin-top: 1em;
     margin: 0 auto 2.5em auto;
     box-shadow: 6px 6px 2px rgba(0, 0, 0, 0.603);
+    transition: padding 0.4s ease-in-out;
+}
+
+#mainapresentation:hover {
+    animation: float 1.1s ease-in-out infinite alternate;
+    padding: 2em;
 }
 
 #mainapresentation h1, #mainapresentation p {
@@ -42,7 +48,60 @@ header#inicio {
     justify-content: space-around;
     width: 100%;
 }
-button {
+#areabuttons a {
+    background-color: var(--colorgray-three);
+    font-size: 1em;
     padding: 0.6em;
-    
+    border: 0;
+    box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.575);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+#areabuttons p { 
+    font-family: var(--fonthover);
+    font-weight: 600;
+}
+
+#iconlogout {
+    margin-left: 5px;
+}
+
+#cvbutton, #inbutton {
+    transition: padding 0.4s ease-in-out;
+}
+
+#cvbutton:hover, #inbutton:hover {
+    animation: float 1.1s ease-in-out infinite alternate;
+    padding: 1em;
+}
+
+@media  screen and (min-width: 768px) {
+    #mainapresentation {
+        animation: float 1.1s ease-in-out infinite alternate;
+        padding: 2em;
+    }
+
+    #mainapresentation:hover {
+        padding: 2.7em;
+    }
+
+    #cvbutton, #inbutton {
+        animation: float 1.1s ease-in-out infinite alternate;
+    }
+
+    #cvbutton:hover, #inbutton:hover {
+        padding: 1.5em;
+    }
+}
+
+@media  screen and (min-width: 992px) {
+    #mainapresentation {
+        width: 70%;
+    }
+
+    #areabuttons {
+        width: 90%;
+    }
 }

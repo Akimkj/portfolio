@@ -11,6 +11,17 @@
     z-index: 1;
 }
 
+#navbartwo {
+    display: none;
+    background-color: #9470dbb0;
+    padding: 0.8em 0.8em 0.3em 0.8em;
+    border-bottom: 3px solid var(--colorviolet-two);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
 #username {
     color: var(--colorgray-three);
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.315);
@@ -19,12 +30,13 @@
     display: inline-block;
     transform: translateY(8px);
     position: relative;
-    transition: 1s ease-in-out;
+    transition: 0.8s ease-in-out;
 }
 
 #username:hover {
-    animation: float 1s ease-in-out infinite alternate;
+    animation: float 1s ease-in-out 0.5s infinite alternate;
     top: 5px;
+    font-size: 1.6em;
 }
 
 #username::before {
@@ -92,11 +104,15 @@
 
 @media screen and (min-width: 762px) {
     #navbar {
+       display: none;
+    }  
+
+    #navbartwo {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 1.3em;
-    }  
+    }
 
     #username {
         transform: translateY(0px);
@@ -107,6 +123,10 @@
     }
 
     #areamenu {
+        display: none;
+    }
+
+    #areamenutwo {
         display: block;
         position: initial;
         height: auto;
@@ -115,12 +135,22 @@
         background-color: rgba(0, 0, 0, 0);
     }
 
+    #areamenutwo a {
+        color: var(--colorwhite);
+        text-decoration: none;
+        display: block;
+        font: normal bold 2em var(--fonthover);
+        margin-bottom: 2em;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.363);
+        transition: font-size 0.3s ease-in-out;
+    }
+
     #itensmenu {
         flex-flow: row nowrap;
         justify-content: space-around;
     }
 
-    #areamenu a {
+    #areamenutwo a {
         margin-bottom: 0;
         font: normal 500 1.4em var(--fonthover);
         margin-left: 3em;
@@ -128,11 +158,11 @@
         align-items: center;
     }
 
-    #areamenu a:hover {
+    #areamenutwo a:hover {
         font-size: 1.5em;
     }
 
-    #areamenu a::before {
+    #areamenutwo a::before {
         content: "🟪";
         margin-right: 5px;
         font-size: 0.5em;
@@ -140,16 +170,11 @@
 }
 
 @media screen and (min-width: 992px) {
-    #navbar {
-        display: flex;
-        justify-content: space-between;
-    }
-
     #username {
         flex: 1 0 auto;
     }
 
-    #areamenu {
+    #areamenutwo {
         flex: 1 0 auto;
     }
 }

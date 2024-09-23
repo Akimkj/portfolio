@@ -15,19 +15,6 @@
     align-items: center;
 }
 
-#sobre h2 {
-    font: normal 600 1.4em var(--fontpixel-art);
-    letter-spacing: 1px;
-    margin-bottom: 1.5em;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.548);
-    transition:  0.4s ease-in-out;
-}
-
-#sobre h2:hover {
-    animation: float 1.1s ease-in-out infinite alternate;
-    font-size: 1.6em;
-}
-
 #photomika {
     background-color: white;
     height: 300px;
@@ -58,13 +45,6 @@
 #autodescricao ul {
     list-style-position: inside;
 }
-
-@media screen and (min-width: 768px) {
-    #sobre h2 {
-        animation: float 1.1s ease-in-out infinite alternate;
-    }
-}
-
 
 @media screen and (min-width: 992px) {
     #flexcontent {

@@ -38,6 +38,26 @@
     background-color: #4e4e4e;
 }
 
+main h2 {
+    font: normal 600 1.4em var(--fontpixel-art);
+    color: var(--colorwhite);
+    letter-spacing: 1px;
+    margin-bottom: 1.5em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.548);
+    transition:  0.4s ease-in-out;
+}
+
+main h2:hover {
+    animation: float 1.1s ease-in-out infinite alternate;
+    font-size: 1.6em;
+}
+
+@media screen and (min-width: 768px) {
+    main h2 {
+        animation: float 1.1s ease-in-out infinite alternate;
+    }
+}
+
 @keyframes float {
     0% {
         transform: translateY(-4px);

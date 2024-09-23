@@ -15,9 +15,3 @@ function mudarTamanho() {
         areamenu.style.display = 'none'
     }
 }
-
-const menu = document.getElementById('areamenu');
-
-menu.addEventListener('touchstart', function(event) {
-  event.preventDefault();
-});

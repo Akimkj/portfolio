@@ -2,7 +2,7 @@
 
 header#inicio {
     padding: 1em;
-    height: 80%;
+    height: 100%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;

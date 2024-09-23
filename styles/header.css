@@ -48,7 +48,6 @@ header#inicio {
 }
 #areabuttons a {
     background-color: var(--colorgray-three);
-    color: var(--colorviolet-two);
     font-size: 1em;
     padding: 0.6em;
     border: 0;
@@ -66,6 +65,7 @@ header#inicio {
 #areabuttons p { 
     font-family: var(--fonthover);
     font-weight: 600;
+    color: var(--colorviolet-two);
 }
 
 #iconlogout {

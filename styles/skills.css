@@ -4,6 +4,7 @@
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    padding: 1em 0 1em 0;
 }
 
 #exibicaoskills {
@@ -14,18 +15,49 @@
 }
 
 .card {
-    width: 350px;
-    height: 400px;
+    width: 85vw;
     border: 1px solid rgba(255, 255, 255, 0.329);
     background-color: #4c008262;
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.329);
     overflow: hidden;
     transition: 0.7s ease-in-out;
+    padding: 1em;
+    color: var(--colorwhite);
+    margin-bottom: 1.5em;
 }
 
 .card:hover {
     border-radius: 0.8em;
-    animation: float 1s ease-in-out infinite alternate;
-    width: 370px;
 }
 
+.card .imgskill {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.imgskill img {
+    animation: float 1.1s ease-in-out infinite alternate;
+}
+
+.imgskill label {
+    font: normal bold 1.3em var(--fonthover);
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.459);
+}
+
+.card .descriptionskill {
+    text-align: justify;
+}
+
+@media screen and (min-width: 768px) {
+    #exibicaoskills {
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .card {
+        width: 45%;
+    }
+}

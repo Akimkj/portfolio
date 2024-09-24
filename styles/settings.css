@@ -30,6 +30,10 @@
     --fontgeral: "Poppins", "Roboto", "Open Sans", sans-serif;
 }
 
+strong {
+    color: var(--coloryellow-two);
+}
+
 .backgray, .backpurple {
     border-bottom: 4px solid black;
     padding: 1.5em;

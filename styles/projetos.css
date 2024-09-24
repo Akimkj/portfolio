@@ -84,14 +84,15 @@
 
     #exibicaoprojetos {
         flex-flow: row wrap;
-        justify-content: flex-start;
-        align-items: center;
-        align-content: center;
+        justify-content: space-around;
+        align-items: flex-start;
+        align-content: flex-start;
+        width: 100%;
+
     }
 
     .projectexibir {
         width: 40%;
         height: 40%;
-        margin-left: 4em;
     }
 }

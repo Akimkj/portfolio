@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 header#inicio {
-    padding: 1em;
     height: 100%;
     display: flex;
     flex-flow: column nowrap;

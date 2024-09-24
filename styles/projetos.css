@@ -1,1 +1,97 @@
 @charset "UTF-8";
+
+#projetos {
+    color: var(--colorwhite);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#exibicaoprojetos {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.projectexibir {
+    width: 90%;
+    height: 60%;
+    text-decoration: none;
+    background-color: var(--colorgray-one);
+    margin-bottom: 2em;
+    transition: 1s ease-in-out 0.1s;
+    box-shadow: 6px 6px 1px rgba(0, 0, 0, 0.644);
+    overflow: hidden;
+}
+
+.projectexibir:hover {
+    animation: float 1s ease-in-out infinite alternate;
+    width: 95%;
+    border-radius: 0.8em;
+}
+
+.imgproject {
+    height: 88%;
+    width: 100%;
+}
+
+.descriptionproject {
+    color: var(--colorwhite);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.404);
+    width: 100%;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nameproject {
+    font: normal 800 1.4em "Nunito", "Poppins", "Raleway", sans-serif;
+}
+
+.typeproject {
+    font: normal normal 0.9em var(--fonthover);
+    margin-bottom: 10px;
+}
+
+#githubRecomendation {
+    color: var(--colorwhite);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: 1s ease-in-out;
+}
+
+#githubRecomendation p {
+    margin-right: 5px;
+}
+
+.githubmark {
+    width: 30px;
+}
+
+#githubRecomendation:hover {
+    font-size: 1.4em;
+}
+
+@media screen and (min-width: 992px) {
+    #projetos {
+        padding: 1em 0.5em 1em 0.5em;
+    }
+
+    .projectexibir:hover {
+        width: 42%;
+    }
+
+    #exibicaoprojetos {
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+    }
+
+    .projectexibir {
+        width: 40%;
+        height: 40%;
+        margin-left: 4em;
+    }
+}

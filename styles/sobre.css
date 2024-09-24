@@ -2,11 +2,9 @@
 
 #sobre {
     color: var(--colorwhite);
-    padding: 1.5em;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    border-bottom: 4px solid black;
 }
 
 #flexcontent {
@@ -19,7 +17,7 @@
     background-color: white;
     height: 300px;
     width: 300px;
-    border-radius: 70%;
+    border-radius: 50%;
     overflow: hidden;
     animation: float 1.1s ease-in-out infinite alternate;
     margin-bottom: 2em;

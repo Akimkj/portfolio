@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+footer {
+    background-color: black;
+    padding: 1em;
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center; 
+}
+
+nav#socialmedias {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+nav#socialmedias a {
+    margin: 0 1em 0 1em;
+}
+
+.imgsocialmedia {
+    width: 40px;
+    height: 40px;
+}

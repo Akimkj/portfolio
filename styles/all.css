@@ -23,6 +23,6 @@ h1, h2, #iconmenu, #mainapresentation > p, #cvbutton, #inbutton {
     user-select: none;           /* Standard syntax */
 }
 
-h2, #mainapresentation, h2 {
+main h2, #mainapresentation {
     animation: float 1.1s ease-in-out infinite alternate;
 }

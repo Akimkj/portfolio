@@ -22,3 +22,7 @@ h1, h2, #iconmenu, #mainapresentation > p, #cvbutton, #inbutton {
     -ms-user-select: none;       /* Internet Explorer/Edge */
     user-select: none;           /* Standard syntax */
 }
+
+h2, #mainapresentation, h2 {
+    animation: float 1.1s ease-in-out infinite alternate;
+}

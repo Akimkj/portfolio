@@ -56,14 +56,7 @@ main h2 {
 }
 
 main h2:hover {
-    animation: float 1.1s ease-in-out infinite alternate;
     font-size: 1.6em;
-}
-
-@media screen and (min-width: 768px) {
-    main h2 {
-        animation: float 1.1s ease-in-out infinite alternate;
-    }
 }
 
 @keyframes float {

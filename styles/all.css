@@ -14,7 +14,7 @@ body, html {
     position: relative;
 }
 
-h1, h2, #iconmenu, #mainapresentation > p {
+h1, h2, #iconmenu, #mainapresentation > p, #cvbutton, #inbutton {
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none;   /* Chrome/Safari */
     -khtml-user-select: none;    /* Konqueror */

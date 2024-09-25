@@ -13,7 +13,6 @@ Meu portfólio</h1>
  <li><strong>Sobre:</strong> Contém uma breve apresentação pessoal e algumas informações extras.</li>
  <li><strong>Projetos:</strong> Apresentação dos meus projetos mais importantes.</li>
  <li><strong>Skills:</strong> Exibição e descrição das minhas habilidades.</li>
- <li><strong>Rodapé:</strong> Ícones com links para as redes sociais.</li>
 </ul>
 
 

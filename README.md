@@ -15,4 +15,13 @@ Meu portfólio</h1>
  <li><strong>Skills:</strong> Exibição e descrição das minhas habilidades.</li>
 </ul>
 
+<h2>👩‍💻 Tecnologias utilizadas</h2>
+
+<p>Para desenvolver esse portfólio, utilizei as seguintes tecnologias:</p>
+
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ul>
 

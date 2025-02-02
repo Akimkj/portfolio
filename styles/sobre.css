@@ -14,7 +14,8 @@
 }
 
 #photomika {
-    background-color: white;
+    background-image: url(../assets/imgs/fotoAutor.jpg);
+    background-size: cover;
     height: 300px;
     width: 300px;
     border-radius: 50%;

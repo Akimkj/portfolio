@@ -22,12 +22,12 @@
     transition: 1s ease-in-out 0.1s;
     box-shadow: 6px 6px 1px rgba(0, 0, 0, 0.644);
     overflow: hidden;
+    animation: float 1s ease-in-out infinite alternate;
+    border-radius: 0.8em;
 }
 
 .projectexibir:hover {
-    animation: float 1s ease-in-out infinite alternate;
     width: 95%;
-    border-radius: 0.8em;
 }
 
 .imgproject {
